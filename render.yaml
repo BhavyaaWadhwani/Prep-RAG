@@ -1,0 +1,15 @@
+services:
+  - type: web
+    name: placementprep-rag
+    runtime: docker
+    plan: free
+    healthCheckPath: /api/health
+    envVars:
+      - key: GEMINI_API_KEY
+        sync: false
+      - key: ADMIN_KEY
+        generateValue: true
+      - key: LLM_MODEL
+        value: gemini-2.5-flash
+      - key: EMBEDDING_MODEL
+        value: gemini-embedding-001

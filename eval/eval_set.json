@@ -1,0 +1,9 @@
+[
+  {"question": "What topics are asked in the online assessment coding section?", "expected_source": "sample_online_assessment_guide.md", "expected_keywords": ["two pointers", "sliding window"]},
+  {"question": "How long is the aptitude section of the OA?", "expected_source": "sample_online_assessment_guide.md", "expected_keywords": ["20", "30"]},
+  {"question": "How should I answer Tell me about yourself?", "expected_source": "sample_interview_prep_notes.md", "expected_keywords": ["present", "future"]},
+  {"question": "Which DSA patterns should I revise first?", "expected_source": "sample_interview_prep_notes.md", "expected_keywords": ["two pointers", "binary search"]},
+  {"question": "What does STAR stand for?", "expected_source": "sample_interview_prep_notes.md", "expected_keywords": ["situation", "result"]},
+  {"question": "Which SQL concepts are asked in the OA?", "expected_source": "sample_online_assessment_guide.md", "expected_keywords": ["join", "window"]},
+  {"question": "What is the capital of Australia?", "expected_source": null, "expected_keywords": []}
+]
